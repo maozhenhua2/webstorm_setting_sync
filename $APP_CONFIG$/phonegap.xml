@@ -1,0 +1,5 @@
+<application>
+  <component name="PhoneGapSettings">
+    <option name="executablePath" value="D:\soft\font_end\nodejs\phonegap.cmd" />
+  </component>
+</application>

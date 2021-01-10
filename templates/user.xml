@@ -1,0 +1,7 @@
+<templateSet group="user">
+  <template name="mobile" value="&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no&quot;&gt;&#10;&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;&#10;&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;&#10;&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black&quot;&gt;" description="mobile meta" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
