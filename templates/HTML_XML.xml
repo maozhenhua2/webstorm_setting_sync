@@ -1,0 +1,7 @@
+<templateSet group="HTML/XML">
+  <template name="h5meta" value="&lt;meta charset=&quot;UTF-8&quot;&gt;&#10;&lt;meta name='viewport' content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'&gt;&#10;&lt;meta name='format-detection' content='telephone=no,email=no'&gt;&#10;&lt;meta name='renderer' content='webkit'&gt;&#10;&lt;meta name='apple-mobile-web-app-capable' content='yes'&gt;&#10;&lt;meta name='apple-mobile-web-app-status-bar-style' content='black'&gt;&#10;&lt;meta http-equiv='X-UA-Compatible' content='IE=Edge,chrome=1'&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
