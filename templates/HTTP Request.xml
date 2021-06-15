@@ -51,6 +51,7 @@
     <variable name="VAR_NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <variable name="VAR_VALUE" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
     <variable name="COMMA_AFTER" expression="jsonAddComma()" defaultValue="" alwaysStopAt="false" />
+    <context />
   </template>
   <template name="env" value="$COMMA_BEFORE$&quot;$ENV_NAME$&quot;: {&#10;  &quot;$VAR_NAME$&quot;: &quot;$VAR_VALUE$&quot;&#10;}$COMMA_AFTER$" description="HTTP Client Environment" toReformat="true" toShortenFQNames="false" deactivated="true">
     <variable name="COMMA_BEFORE" expression="jsonAddComma()" defaultValue="" alwaysStopAt="false" />
@@ -58,6 +59,7 @@
     <variable name="VAR_NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <variable name="VAR_VALUE" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
     <variable name="COMMA_AFTER" expression="jsonAddComma()" defaultValue="" alwaysStopAt="false" />
+    <context />
   </template>
   <template name="ssl" value="$COMMA_BEFORE$&quot;SSLConfiguration&quot;: {&#10;  &quot;clientCertificate&quot;: &quot;$CERT_PATH$&quot;,&#10;  &quot;clientCertificateKey&quot;: &quot;$KEY_PATH$&quot;,&#10;  &quot;verifyHostCertificate&quot;: $VERIFY$,&#10;  &quot;hasCertificatePassphrase&quot;: $PASS$&#10;}$COMMA_AFTER$" description="SSL Configuration" toReformat="true" toShortenFQNames="false" deactivated="true">
     <variable name="COMMA_BEFORE" expression="jsonAddComma()" defaultValue="" alwaysStopAt="false" />
@@ -66,5 +68,6 @@
     <variable name="VERIFY" expression="complete()" defaultValue="true" alwaysStopAt="true" />
     <variable name="PASS" expression="complete()" defaultValue="false" alwaysStopAt="true" />
     <variable name="COMMA_AFTER" expression="jsonAddComma()" defaultValue="" alwaysStopAt="false" />
+    <context />
   </template>
 </templateSet>
